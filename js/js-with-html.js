@@ -27,3 +27,4 @@ var timeAtCurrentSpeed = (distanceLeft/currentSpeed) * 60;
 var timePlannedSpeed = (distanceLeft/newSpeed) * 60;
 var timeGain = (timeAtCurrentSpeed - timePlannedSpeed);
 console.log("if you drive at " + newSpeed + " mph, you will arrive " + timeGain + " minutes sooner.")
+
