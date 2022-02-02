@@ -14,7 +14,6 @@
 
 
 
-
 var currentSpeed = Number (prompt("how fast are you driving?"));
 console.log(currentSpeed)
 var plannedSpeedIncrease = Number (prompt("how much faster do you want to go?"));
@@ -27,4 +26,3 @@ var timeAtCurrentSpeed = (distanceLeft/currentSpeed) * 60;
 var timePlannedSpeed = (distanceLeft/newSpeed) * 60;
 var timeGain = (timeAtCurrentSpeed - timePlannedSpeed);
 console.log("if you drive at " + newSpeed + " mph, you will arrive " + timeGain + " minutes sooner.")
-
