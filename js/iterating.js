@@ -6,7 +6,7 @@
      * Create an array of 4 people's names and store it in a variable called
      * 'names'.
      */
-    var names =['cody', 'alex', 'cilla', 'joey']
+    var names = ['cody', 'alex', 'cilla', 'joey']
 
 
     /**
@@ -29,9 +29,9 @@
      * Write some code that uses a for loop to log every item in the names
      * array.
      */
-    // for (var i = 0; i <names.length; i++){
-    //     console.log(names[i])
-    // }
+    for (var i = 0; i <names.length; i++){
+        console.log(names[i])
+    }
 
 
     /**

@@ -6,11 +6,11 @@
 // var userChoice = prompt("what is your favorite color?");
 // alert("Surprise! " + userChoice + " is my favorite color too!");
 //
-// var littleMermaid = Number (prompt("How many days did you borrow The Little Mermaid?"));
-// var brotherBear = Number (prompt("How many days did you borrow Brother Bear?"));
-// var hercules = Number (prompt("How many days did you borrow Hercules?"));
-// var grandTotal = (littleMermaid + brotherBear + hercules) * 3;
-// var total = Number (alert(" Total $" + grandTotal ));
+var littleMermaid = Number (prompt("How many days did you borrow The Little Mermaid?"));
+var brotherBear = Number (prompt("How many days did you borrow Brother Bear?"));
+var hercules = Number (prompt("How many days did you borrow Hercules?"));
+var grandTotal = (littleMermaid + brotherBear + hercules) * 3;
+var total = Number (alert(" Total $" + grandTotal ));
 //
 //
 //
