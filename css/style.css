@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+    background-image: url("../images/viridiantech000.jpeg");
+    background-repeat: round;
+    background-attachment: fixed;
+}
+.mainheading, .main, .body, .head {
+    text-align: center;
+}
+h1, h2 {
+    text-decoration: navy underline;
+    color: black;
+}
+ul , ol, table {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    list-style: square;
+    display: table;
+    margin: 0 auto;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: white solid 5px;
+    color: white;
+    background: black;
+    padding: 10px;
+}
+.img {
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%)
+}
+/* unvisited link (:link) */
+a:link {
+    color:red;
+}
+
+/* visited link (:visited) */
+a:visited {
+    color:black;
+}
+
+/* mouse hover over link (:hover) */
+a:hover {
+    color:blue;
+}
+
+/* active/selected link (:active) */
+a:active {
+    color:green;
+}
